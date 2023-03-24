@@ -36,7 +36,7 @@ sleep(2)
 userPass = stdiomask.getpass(prompt="Please enter your current password : ")
 
 # API Key
-api_key = 'a2fd0d73ba7a4ac8ad990c37a6f3ffcb' # < ******* Please enter your own API key. *******
+api_key = '*******************' # < ******* Please enter your own API key. *******
 count = checkLeak(userPass, api_key)
 
 if count <= 0:
